@@ -14,36 +14,41 @@
       "id": "post-002",
       "imagem": "imagens/post-002.jpg",
       "legenda": "Quem constrói em silêncio não precisa de plateia. 🔨\n\nVocê concorda? Comenta \"SIM\" 👇\nSalve para lembrar nos dias de pressa.\n\n#foco #resultado #silencio #mentalidade #sucesso #disciplina",
-      "status": "agendado",
-      "agendado_para": "2026-11-07T09:08-03:00"
+      "status": "substituido",
+      "agendado_para": "2026-11-07T09:08-03:00",
+      "substituido_por": "carrossel-002"
     },
     {
       "id": "post-003",
       "imagem": "imagens/post-003.jpg",
       "legenda": "O tempo vai passar de qualquer jeito. A única pergunta é: com ou sem você evoluindo? ⏳\n\nMarque alguém que precisa ler isso hoje.\n\n#evolucao #constancia #crescimentopessoal #reflexao #mentalidadeforte",
-      "status": "agendado",
-      "agendado_para": "2026-11-07T13:12-03:00"
+      "status": "substituido",
+      "agendado_para": "2026-11-07T13:12-03:00",
+      "substituido_por": "carrossel-003"
     },
     {
       "id": "post-004",
       "imagem": "imagens/post-004.jpg",
       "legenda": "Resultado não faz barulho enquanto está sendo construído. 🌅\n\nQual meta você está construindo em silêncio agora? Conta nos comentários 👇\n\n#meta #foco #persistencia #mentalidade #crescimento #disciplina",
-      "status": "agendado",
-      "agendado_para": "2026-11-07T18:17-03:00"
+      "status": "substituido",
+      "agendado_para": "2026-11-07T18:17-03:00",
+      "substituido_por": "carrossel-004"
     },
     {
       "id": "post-005",
       "imagem": "imagens/post-005.jpg",
       "legenda": "Motivação vai e volta. Plano fica. 📝\n\nO que você vai fazer amanhã cedo, de verdade? Escreve aqui 👇\nSalve este post e use de lembrete.\n\n#planejamento #produtividade #rotina #disciplina #foco #mentalidade",
-      "status": "agendado",
-      "agendado_para": "2026-11-08T08:40-03:00"
+      "status": "substituido",
+      "agendado_para": "2026-11-08T08:40-03:00",
+      "substituido_por": "carrossel-005"
     },
     {
       "id": "post-006",
       "imagem": "imagens/post-006.jpg",
       "legenda": "Comece pequeno. Comece hoje. Continue amanhã. ☕\n\nO começo não precisa ser perfeito, só precisa existir.\nMarque quem está recomeçando 💛\n\n#recomecar #habitos #constancia #desenvolvimentopessoal #rotina #reflexao",
-      "status": "agendado",
-      "agendado_para": "2026-11-08T16:48-03:00"
+      "status": "substituido",
+      "agendado_para": "2026-11-08T16:48-03:00",
+      "substituido_por": "carrossel-006"
     },
     {
       "id": "carrossel-001",
@@ -244,6 +249,256 @@
       "legenda": "Persistência é continuar quando ninguém aplaude. 🔥\n\nHoje foi difícil? Continue mesmo assim.\n💾 Salve para os dias pesados\n\n#persistencia #disciplina #foco #resiliencia #mentalidade #superacao",
       "status": "rascunho",
       "musica": "pix-dark-ambient.mp3"
+    },
+    {
+      "id": "fade-007",
+      "tipo": "reel",
+      "video": "videos/fade-007.mp4",
+      "legenda": "Quem aguenta o silêncio, aguenta o processo. 🪜\n\nQual degrau você vai subir hoje? 👇\n📩 Envie para alguém que está subindo devagar\n\n#processo #constancia #disciplina #mentalidade #foco #evolucao",
+      "status": "rascunho",
+      "musica": "pix-piano-legendary-615161.mp3"
+    },
+    {
+      "id": "fade-008",
+      "tipo": "reel",
+      "video": "videos/fade-008.mp4",
+      "legenda": "Disciplina é o fogo que mantém você de pé quando a motivação apaga. 🔥\n\nSalve para os dias sem vontade.\n\n#disciplina #motivacao #foco #mentalidade #determinacao #constancia",
+      "status": "rascunho",
+      "musica": "pix-slowed-white-clouds-615223.mp3"
+    },
+    {
+      "id": "fade-009",
+      "tipo": "reel",
+      "video": "videos/fade-009.mp4",
+      "legenda": "Cada dia que você adia é um dia que o medo vence. ⚡\n\nO que você vai fazer hoje, mesmo com medo? 👇\n\n#coragem #medo #acao #mentalidade #disciplina #foco",
+      "status": "rascunho",
+      "musica": "pix-piano-differently-615165.mp3"
+    },
+    {
+      "id": "fade-010",
+      "tipo": "reel",
+      "video": "videos/fade-010.mp4",
+      "legenda": "A tempestade não dura para sempre. Quem resiste, colhe. 🌩️\n\nEnvie para alguém que está atravessando uma fase difícil.\n\n#resiliencia #superacao #persistencia #mentalidade #foco #forca",
+      "status": "rascunho",
+      "musica": "pix-trap-atmosphere-583431.mp3"
+    },
+    {
+      "id": "fade-011",
+      "tipo": "reel",
+      "video": "videos/fade-011.mp4",
+      "legenda": "Leia hoje o que vai mudar você amanhã. 📖\n\nQual foi o último livro que mudou sua cabeça? 👇\n💾 Salve para lembrar de ler\n\n#leitura #livros #conhecimento #mentalidade #desenvolvimentopessoal #habitos",
+      "status": "rascunho",
+      "musica": "pix-ambient-dark-626823.mp3"
+    },
+    {
+      "id": "fade-012",
+      "tipo": "reel",
+      "video": "videos/fade-012.mp4",
+      "legenda": "O tempo não volta. Use o seu com respeito. ⏳\n\nEm que você gastou seu tempo hoje? 👇\n\n#tempo #gestaodotempo #foco #mentalidade #disciplina #reflexao",
+      "status": "rascunho",
+      "musica": "pix-slowed-piano-leaf.mp3"
+    },
+    {
+      "id": "fade-013",
+      "tipo": "reel",
+      "video": "videos/fade-013.mp4",
+      "legenda": "Suba um degrau por dia. Um dia você olha para trás e não reconhece o chão. 🪜\n\n💾 Salve para os dias em que parecer que nada muda\n\n#evolucao #constancia #habitos #mentalidade #crescimento #disciplina",
+      "status": "rascunho",
+      "musica": "pix-phonk-sub-clair-588307.mp3"
+    },
+    {
+      "id": "fade-014",
+      "tipo": "reel",
+      "video": "videos/fade-014.mp4",
+      "legenda": "Quem treina quando ninguém vê, vence quando todos olham. 💪\n\nEnvie para o seu parceiro de treino ou de meta.\n\n#treino #disciplina #foco #mentalidade #constancia #resultado",
+      "status": "rascunho",
+      "musica": "pix-slowed-up-from-ash-616142.mp3"
+    },
+    {
+      "id": "fade-015",
+      "tipo": "reel",
+      "video": "videos/fade-015.mp4",
+      "legenda": "As nuvens passam. O céu continua. Você também. ☁️\n\nRespire fundo e siga em frente.\n📩 Envie para alguém que precisa ouvir isso\n\n#reflexao #paz #resiliencia #mentalidade #superacao #calma",
+      "status": "rascunho",
+      "musica": "pix-piano-drama-580533.mp3"
+    },
+    {
+      "id": "fade-016",
+      "tipo": "reel",
+      "video": "videos/fade-016.mp4",
+      "legenda": "Respire. Recomece. Você ainda está no jogo. 🌤️\n\nO que você vai recomeçar hoje? 👇\n\n#recomecar #esperanca #foco #mentalidade #motivacao #forca",
+      "status": "rascunho",
+      "musica": "pix-trap-dark-595789.mp3"
+    },
+    {
+      "id": "voz-005",
+      "tipo": "reel",
+      "video": "videos/voz-005.mp4",
+      "legenda": "Ninguém vai te aplaudir no começo. Faça mesmo assim. 👏\n\nVocê está esperando aplauso para começar? 👇\n📩 Envie para quem precisa trabalhar em silêncio\n\n#trabalho #disciplina #foco #mentalidade #resultado #acao",
+      "status": "rascunho",
+      "musica": "pix-slowed-dreaming-of-sun-614718.mp3"
+    },
+    {
+      "id": "voz-006",
+      "tipo": "reel",
+      "video": "videos/voz-006.mp4",
+      "legenda": "Você não está perdido. Está confortável. 🚪\n\nQual zona de conforto você precisa deixar? 👇\n💾 Salve para lembrar\n\n#conforto #crescimento #coragem #mentalidade #disciplina #mudanca",
+      "status": "rascunho",
+      "musica": "pix-phonk-brasileiro-588665.mp3"
+    },
+    {
+      "id": "voz-007",
+      "tipo": "reel",
+      "video": "videos/voz-007.mp4",
+      "legenda": "Cinco da manhã. Frio. Sem vontade. É aí que a vida muda. ⏰\n\nQue horas você acorda? 👇\n\n#acordarcedo #rotina #disciplina #mentalidade #foco #manha",
+      "status": "rascunho",
+      "musica": "pix-dark-cinematic-620558.mp3"
+    },
+    {
+      "id": "voz-008",
+      "tipo": "reel",
+      "video": "videos/voz-008.mp4",
+      "legenda": "Motivação é visita. Disciplina mora aqui. 🏠\n\n💾 Salve para os dias em que a vontade sumir\n📩 Envie para alguém que vive esperando motivação\n\n#motivacao #disciplina #habitos #foco #mentalidade #constancia",
+      "status": "rascunho",
+      "musica": "pix-phonk-songs-593656.mp3"
+    },
+    {
+      "id": "voz-009",
+      "tipo": "reel",
+      "video": "videos/voz-009.mp4",
+      "legenda": "Todo mundo quer o resultado. Ninguém quer o processo. 🛠️\n\nQual parte do processo você mais evita? 👇\n\n#processo #resultado #disciplina #mentalidade #constancia #foco",
+      "status": "rascunho",
+      "musica": "pix-suspense-tension-623319.mp3"
+    },
+    {
+      "id": "voz-010",
+      "tipo": "reel",
+      "video": "videos/voz-010.mp4",
+      "legenda": "Não conte seus planos. Conte seus resultados. 🤐\n\nConcorda? Comenta SIM 👇\n\n#silencio #resultado #foco #mentalidade #disciplina #planejamento",
+      "status": "rascunho",
+      "musica": "pix-phonk-612397.mp3"
+    },
+    {
+      "id": "voz-011",
+      "tipo": "reel",
+      "video": "videos/voz-011.mp4",
+      "legenda": "Você não precisa de um grande dia. Precisa de pequenos dias repetidos. 👣\n\n💾 Salve para lembrar\n📩 Envie para quem está começando\n\n#habitos #constancia #pequenospassos #mentalidade #disciplina #evolucao",
+      "status": "rascunho",
+      "musica": "pix-mystery-dark-625070.mp3"
+    },
+    {
+      "id": "voz-012",
+      "tipo": "reel",
+      "video": "videos/voz-012.mp4",
+      "legenda": "A vida não é justa. Mas recompensa quem insiste. 🔁\n\nQuantos dias você já insistiu? 👇\n\n#persistencia #insistir #superacao #mentalidade #foco #disciplina",
+      "status": "rascunho",
+      "musica": "pix-phonk-drift-night-573644.mp3"
+    },
+    {
+      "id": "voz-013",
+      "tipo": "reel",
+      "video": "videos/voz-013.mp4",
+      "legenda": "Sua mente vai tentar te convencer a parar. Você não precisa obedecer. 🧠\n\n📩 Envie para quem quase desistiu\n\n#mente #forcamental #persistencia #mentalidade #disciplina #superacao",
+      "status": "rascunho",
+      "musica": "pix-trap-beat-590006.mp3"
+    },
+    {
+      "id": "voz-014",
+      "tipo": "reel",
+      "video": "videos/voz-014.mp4",
+      "legenda": "O dia acaba. A sua desculpa também pode acabar. 🌙\n\nQual desculpa você vai deixar para trás hoje? 👇\n\n#desculpas #acao #disciplina #mentalidade #foco #mudanca",
+      "status": "rascunho",
+      "musica": "pix-cinematic-tension-620587.mp3"
+    },
+    {
+      "id": "carrossel-002",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-002-1.jpg",
+        "imagens/car-002-2.jpg",
+        "imagens/car-002-3.jpg",
+        "imagens/car-002-4.jpg",
+        "imagens/car-002-5.jpg",
+        "imagens/car-002-6.jpg",
+        "imagens/car-002-7.jpg",
+        "imagens/car-002-8.jpg",
+        "imagens/car-002-9.jpg"
+      ],
+      "legenda": "🔨 Quem constrói em silêncio não precisa de plateia.\n\n📌 Neste carrossel:\n• Pare de anunciar planos\n• Conte resultados, não intenções\n• Escolha poucas pessoas para saber\n• Trabalhe mais do que fala\n• Deixe o resultado fazer o barulho\n\n💬 Qual desses você mais precisa aplicar? Responda com o número.\n💾 Salve para reler quando bater a vontade de falar demais.\n📩 Envie para quem constrói em silêncio.\n\nSiga @opensarforte para mais.\n\n#mentalidade #disciplina #foco #resultado #silencio #constancia",
+      "status": "agendado",
+      "agendado_para": "2026-11-07T09:08-03:00"
+    },
+    {
+      "id": "carrossel-003",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-003-1.jpg",
+        "imagens/car-003-2.jpg",
+        "imagens/car-003-3.jpg",
+        "imagens/car-003-4.jpg",
+        "imagens/car-003-5.jpg",
+        "imagens/car-003-6.jpg",
+        "imagens/car-003-7.jpg",
+        "imagens/car-003-8.jpg",
+        "imagens/car-003-9.jpg"
+      ],
+      "legenda": "⏳ O tempo vai passar de qualquer jeito. A pergunta é: com ou sem você evoluindo?\n\n📌 Neste carrossel:\n• 10 minutos por dia\n• Cortar uma distração por semana\n• Plano com horário\n• Revisão de domingo\n\n💬 Qual horário você vai marcar hoje? Escreva aqui 👇\n💾 Salve para fazer a revisão de domingo.\n📩 Envie para quem vive sem tempo.\n\nSiga @opensarforte para mais.\n\n#tempo #evolucao #habitos #foco #mentalidade #produtividade",
+      "status": "agendado",
+      "agendado_para": "2026-11-07T13:12-03:00"
+    },
+    {
+      "id": "carrossel-004",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-004-1.jpg",
+        "imagens/car-004-2.jpg",
+        "imagens/car-004-3.jpg",
+        "imagens/car-004-4.jpg",
+        "imagens/car-004-5.jpg",
+        "imagens/car-004-6.jpg",
+        "imagens/car-004-7.jpg",
+        "imagens/car-004-8.jpg",
+        "imagens/car-004-9.jpg"
+      ],
+      "legenda": "🌅 Resultado não faz barulho enquanto está sendo construído.\n\nNinguém vê o treino das cinco, a página reescrita, a vontade de desistir. Mas todo mundo vê o resultado.\n\n💬 O que você está construindo em silêncio agora? Conta aqui 👇\n💾 Salve para os dias pesados.\n📩 Envie para alguém que está construindo.\n\nSiga @opensarforte para mais.\n\n#resultado #persistencia #disciplina #mentalidade #foco #superacao",
+      "status": "agendado",
+      "agendado_para": "2026-11-07T18:17-03:00"
+    },
+    {
+      "id": "carrossel-005",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-005-1.jpg",
+        "imagens/car-005-2.jpg",
+        "imagens/car-005-3.jpg",
+        "imagens/car-005-4.jpg",
+        "imagens/car-005-5.jpg",
+        "imagens/car-005-6.jpg",
+        "imagens/car-005-7.jpg",
+        "imagens/car-005-8.jpg",
+        "imagens/car-005-9.jpg"
+      ],
+      "legenda": "📝 Motivação vai e volta. Plano fica.\n\n📌 O passo a passo deste carrossel:\n1. Uma meta de 30 dias\n2. Passos de 15 minutos\n3. Horário na agenda\n4. Ambiente pronto\n5. Plano para o dia ruim\n6. Um X por dia\n7. Ajuste, não desista\n\n💬 Qual é a sua meta de 30 dias? Escreva aqui 👇\n💾 Salve e comece hoje.\n📩 Envie para quem vive esperando motivação.\n\nSiga @opensarforte para mais.\n\n#planejamento #metas #habitos #disciplina #mentalidade #foco",
+      "status": "agendado",
+      "agendado_para": "2026-11-08T08:40-03:00"
+    },
+    {
+      "id": "carrossel-006",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-006-1.jpg",
+        "imagens/car-006-2.jpg",
+        "imagens/car-006-3.jpg",
+        "imagens/car-006-4.jpg",
+        "imagens/car-006-5.jpg",
+        "imagens/car-006-6.jpg",
+        "imagens/car-006-7.jpg",
+        "imagens/car-006-8.jpg",
+        "imagens/car-006-9.jpg"
+      ],
+      "legenda": "👣 Comece pequeno. Comece hoje. Continue amanhã.\n\nUma flexão. Uma página. Um copo de água. O começo não precisa ser grande, só precisa existir.\n\n💬 Qual será o seu primeiro passo pequeno de hoje? 👇\n💾 Salve para recomeçar quando precisar.\n📩 Envie para quem está recomeçando.\n\nSiga @opensarforte para mais.\n\n#recomecar #habitos #constancia #disciplina #mentalidade #pequenospassos",
+      "status": "agendado",
+      "agendado_para": "2026-11-08T16:48-03:00"
     }
   ]
 }
