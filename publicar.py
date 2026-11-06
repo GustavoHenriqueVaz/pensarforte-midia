@@ -14,6 +14,9 @@ Uso:
   python publicar.py             publica o que está vencido
   python publicar.py --simular   mostra o que faria, sem publicar
   python publicar.py --renovar   renova o token (vale 60 dias)
+  python publicar.py --validar ID   cria o container na API SEM publicar (teste)
+
+Tipos em fila.json: imagem (padrão), carrossel (lista 'imagens'), reel ('video'), story ('imagem').
 """
 import json, os, shutil, subprocess, sys, time, urllib.parse, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
@@ -69,32 +72,12 @@ def git(*args):
     return r.stdout
 
 
-def subir_imagem(item, cfg):
-    """Copia a imagem para midia/, dá push e devolve a URL pública.
-    Na nuvem (MODO_NUVEM=1) a imagem já está no repositório: só monta a URL."""
-    if os.environ.get("MODO_NUVEM") == "1":
-        url = f"{cfg['PUBLIC_BASE_URL'].rstrip('/')}/imagens/{item['id']}.jpg"
-        for _ in range(12):
-            try:
-                with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=20) as r:
-                    if r.status == 200:
-                        return url
-            except Exception:
-                pass
-            time.sleep(5)
-        raise RuntimeError(f"URL pública não respondeu: {url}")
-    origem = os.path.join(PASTA, item["imagem"])
-    if not os.path.exists(origem):
-        raise RuntimeError(f"imagem não encontrada: {origem}")
-    nome = f"{item['id']}.jpg"
-    destino = os.path.join(MIDIA, nome)
-    shutil.copyfile(origem, destino)
-    git("add", nome)
-    if git("status", "--porcelain").strip():
-        git("commit", "-m", f"post {item['id']}")
-    git("push", "origin", "HEAD")
-    url = f"{cfg['PUBLIC_BASE_URL'].rstrip('/')}/{nome}"
-    for _ in range(12):  # espera até ~60s a URL ficar disponível
+def url_publica(rel, cfg):
+    return f"{cfg['PUBLIC_BASE_URL'].rstrip('/')}/{rel.replace(os.sep, '/')}"
+
+
+def esperar_url(url):
+    for _ in range(18):  # até ~90s
         try:
             with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=20) as r:
                 if r.status == 200:
@@ -103,6 +86,23 @@ def subir_imagem(item, cfg):
             pass
         time.sleep(5)
     raise RuntimeError(f"URL pública não respondeu: {url}")
+
+
+def subir_arquivo(rel, cfg):
+    """Garante que o arquivo (imagem/vídeo, caminho relativo) está público e devolve a URL.
+    Na nuvem (MODO_NUVEM=1) ele já está no repositório; no PC copia para midia/ e dá push."""
+    if os.environ.get("MODO_NUVEM") != "1":
+        origem = os.path.join(PASTA, rel)
+        if not os.path.exists(origem):
+            raise RuntimeError(f"arquivo não encontrado: {origem}")
+        destino = os.path.join(MIDIA, rel)
+        os.makedirs(os.path.dirname(destino), exist_ok=True)
+        shutil.copyfile(origem, destino)
+        git("add", rel)
+        if git("status", "--porcelain").strip():
+            git("commit", "-m", f"midia {rel}")
+        git("push", "origin", "HEAD")
+    return esperar_url(url_publica(rel, cfg))
 
 
 def ja_publicado(item, cfg):
@@ -122,23 +122,61 @@ def ja_publicado(item, cfg):
     return None
 
 
-def publicar(item, cfg):
-    repetido = ja_publicado(item, cfg)
-    if repetido:
-        log(f"{item['id']} já estava no Instagram ({repetido}); não publico de novo")
-        return repetido
-    url = subir_imagem(item, cfg)
-    uid, tok = cfg["IG_USER_ID"], cfg["IG_ACCESS_TOKEN"]
-    c = http("POST", f"{API}/{uid}/media", {"image_url": url, "caption": item["legenda"], "access_token": tok})
-    cid = c["id"]
-    for _ in range(20):
+def esperar_container(cid, tok, tentativas=20, pausa=3):
+    for _ in range(tentativas):
         st = http("GET", f"{API}/{cid}?fields=status_code&access_token={tok}").get("status_code")
         if st == "FINISHED":
-            break
+            return
         if st in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"container {st}")
-        time.sleep(3)
-    p = http("POST", f"{API}/{uid}/media_publish", {"creation_id": cid, "access_token": tok})
+        time.sleep(pausa)
+    raise RuntimeError("container não ficou pronto a tempo")
+
+
+def criar_container(item, cfg):
+    """Cria (sem publicar) o container conforme o tipo: imagem, carrossel, reel ou story."""
+    uid, tok = cfg["IG_USER_ID"], cfg["IG_ACCESS_TOKEN"]
+    media = f"{API}/{uid}/media"
+    tipo = item.get("tipo", "imagem")
+    leg = item.get("legenda", "")
+    if tipo == "imagem":
+        url = subir_arquivo(item["imagem"], cfg)
+        cid = http("POST", media, {"image_url": url, "caption": leg, "access_token": tok})["id"]
+        esperar_container(cid, tok)
+    elif tipo == "story":
+        url = subir_arquivo(item["imagem"], cfg)
+        cid = http("POST", media, {"image_url": url, "media_type": "STORIES", "access_token": tok})["id"]
+        esperar_container(cid, tok)
+    elif tipo == "reel":
+        url = subir_arquivo(item["video"], cfg)
+        cid = http("POST", media, {"media_type": "REELS", "video_url": url, "caption": leg,
+                                   "share_to_feed": "true", "access_token": tok})["id"]
+        esperar_container(cid, tok, tentativas=60, pausa=5)
+    elif tipo == "carrossel":
+        filhos = []
+        for rel in item["imagens"]:
+            url = subir_arquivo(rel, cfg)
+            f = http("POST", media, {"image_url": url, "is_carousel_item": "true", "access_token": tok})["id"]
+            esperar_container(f, tok)
+            filhos.append(f)
+        cid = http("POST", media, {"media_type": "CAROUSEL", "children": ",".join(filhos),
+                                   "caption": leg, "access_token": tok})["id"]
+        esperar_container(cid, tok)
+    else:
+        raise RuntimeError(f"tipo desconhecido: {tipo}")
+    return cid
+
+
+def publicar(item, cfg, so_validar=False):
+    if not so_validar and item.get("tipo", "imagem") != "story":
+        repetido = ja_publicado(item, cfg)
+        if repetido:
+            log(f"{item['id']} já estava no Instagram ({repetido}); não publico de novo")
+            return repetido
+    cid = criar_container(item, cfg)
+    if so_validar:
+        return cid
+    p = http("POST", f"{API}/{cfg['IG_USER_ID']}/media_publish", {"creation_id": cid, "access_token": cfg["IG_ACCESS_TOKEN"]})
     return p["id"]
 
 
@@ -155,6 +193,12 @@ def main():
     cfg = ler_env()
     if "--renovar" in sys.argv:
         return renovar(cfg)
+    if "--validar" in sys.argv:
+        alvo = sys.argv[sys.argv.index("--validar") + 1]
+        item = next(p for p in json.load(open(FILA, encoding="utf-8"))["posts"] if p["id"] == alvo)
+        cid = publicar(item, cfg, so_validar=True)
+        log(f"VALIDADO {alvo}: container {cid} criado e aceito pela API (não publicado; expira em 24h)")
+        return
     for k in ("IG_USER_ID", "IG_ACCESS_TOKEN", "PUBLIC_BASE_URL"):
         if not cfg.get(k) and not simular:
             sys.exit(f"Faltou {k} no arquivo .env")

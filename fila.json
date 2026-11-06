@@ -44,6 +44,27 @@
       "legenda": "Comece pequeno. Comece hoje. Continue amanhã. ☕\n\nO começo não precisa ser perfeito, só precisa existir.\nMarque quem está recomeçando 💛\n\n#recomecar #habitos #constancia #desenvolvimentopessoal #rotina #reflexao",
       "status": "agendado",
       "agendado_para": "2026-11-08T16:48-03:00"
+    },
+    {
+      "id": "carrossel-001",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/carrossel-001-1.jpg",
+        "imagens/carrossel-001-2.jpg",
+        "imagens/carrossel-001-3.jpg",
+        "imagens/carrossel-001-4.jpg",
+        "imagens/carrossel-001-5.jpg",
+        "imagens/carrossel-001-6.jpg"
+      ],
+      "legenda": "5 hábitos simples que mudam sua rotina 👇\n\nVocê não precisa fazer tudo de uma vez. Escolha UM e comece amanhã.\n\n💾 Salve para não esquecer\n📩 Envie para alguém que precisa de uma rotina nova\n💬 Qual destes você já faz? Responda com o número\n\n#rotina #habitos #disciplina #produtividade #desenvolvimentopessoal #mentalidade",
+      "status": "rascunho"
+    },
+    {
+      "id": "reel-001",
+      "tipo": "reel",
+      "video": "videos/reel-001.mp4",
+      "legenda": "Você não precisa de mais tempo. Precisa de decisão. ⏳\n\nDecida hoje o que você vai fazer amanhã cedo, e faça.\n📩 Envie para alguém que precisa ouvir isso\n\n#decisao #disciplina #foco #mentalidade #reflexao #crescimentopessoal",
+      "status": "rascunho"
     }
   ]
 }
