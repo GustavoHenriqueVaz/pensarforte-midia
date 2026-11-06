@@ -1,0 +1,45 @@
+name: publicar
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descriptografar segredos
+        env:
+          SENHA: ${{ secrets.PF_SENHA }}
+        run: |
+          openssl enc -aes-256-cbc -pbkdf2 -d -in segredos.enc -out .env -pass env:SENHA
+          sha256sum .env | cut -d' ' -f1 > .env.hash
+      - name: Publicar o que venceu
+        env:
+          MODO_NUVEM: "1"
+        run: python3 publicar.py
+      - name: Regravar segredos se o token foi renovado
+        if: always()
+        env:
+          SENHA: ${{ secrets.PF_SENHA }}
+        run: |
+          if [ -f .env ] && [ "$(sha256sum .env | cut -d' ' -f1)" != "$(cat .env.hash)" ]; then
+            openssl enc -aes-256-cbc -pbkdf2 -salt -in .env -out segredos.enc -pass env:SENHA
+          fi
+          rm -f .env .env.hash
+      - name: Salvar fila e segredos
+        if: always()
+        run: |
+          git config user.name "pensarforte-bot"
+          git config user.email "pensarforte-bot@users.noreply.github.com"
+          git add fila.json segredos.enc
+          if ! git diff --cached --quiet; then
+            git commit -m "automático: atualiza fila"
+            for i in 1 2 3 4; do git pull --rebase && git push && break || sleep 6; done
+          fi

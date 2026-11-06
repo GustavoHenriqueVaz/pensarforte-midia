@@ -1,0 +1,4 @@
+.env
+.env.hash
+publicar.log
+__pycache__/

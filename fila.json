@@ -1,0 +1,49 @@
+{
+  "_comentario": "status: rascunho -> aprovado (você aprova) -> agendado (agendar.py) -> publicado | erro. 'imagem' é relativo a esta pasta. Imagem do feed: JPEG, proporção entre 4:5 e 1.91:1, sem texto cortado.",
+  "posts": [
+    {
+      "id": "post-001",
+      "imagem": "imagens/post-001.jpg",
+      "legenda": "Motivação passa. Disciplina fica. 💪\n\nQual tarefa você vai fazer hoje mesmo sem vontade? Conta nos comentários 👇\nSalve para ler de novo amanhã.\n\n#disciplina #motivacao #mentalidade #desenvolvimentopessoal #foco #rotina",
+      "status": "publicado",
+      "agendado_para": "2026-11-06T13:31-03:00",
+      "instagram_id": "18018959051977410",
+      "publicado_em": "2026-11-06T13:32:56-03:00"
+    },
+    {
+      "id": "post-002",
+      "imagem": "imagens/post-002.jpg",
+      "legenda": "Quem constrói em silêncio não precisa de plateia. 🔨\n\nVocê concorda? Comenta \"SIM\" 👇\nSalve para lembrar nos dias de pressa.\n\n#foco #resultado #silencio #mentalidade #sucesso #disciplina",
+      "status": "agendado",
+      "agendado_para": "2026-11-07T09:08-03:00"
+    },
+    {
+      "id": "post-003",
+      "imagem": "imagens/post-003.jpg",
+      "legenda": "O tempo vai passar de qualquer jeito. A única pergunta é: com ou sem você evoluindo? ⏳\n\nMarque alguém que precisa ler isso hoje.\n\n#evolucao #constancia #crescimentopessoal #reflexao #mentalidadeforte",
+      "status": "agendado",
+      "agendado_para": "2026-11-07T13:12-03:00"
+    },
+    {
+      "id": "post-004",
+      "imagem": "imagens/post-004.jpg",
+      "legenda": "Resultado não faz barulho enquanto está sendo construído. 🌅\n\nQual meta você está construindo em silêncio agora? Conta nos comentários 👇\n\n#meta #foco #persistencia #mentalidade #crescimento #disciplina",
+      "status": "agendado",
+      "agendado_para": "2026-11-07T18:17-03:00"
+    },
+    {
+      "id": "post-005",
+      "imagem": "imagens/post-005.jpg",
+      "legenda": "Motivação vai e volta. Plano fica. 📝\n\nO que você vai fazer amanhã cedo, de verdade? Escreve aqui 👇\nSalve este post e use de lembrete.\n\n#planejamento #produtividade #rotina #disciplina #foco #mentalidade",
+      "status": "agendado",
+      "agendado_para": "2026-11-08T08:40-03:00"
+    },
+    {
+      "id": "post-006",
+      "imagem": "imagens/post-006.jpg",
+      "legenda": "Comece pequeno. Comece hoje. Continue amanhã. ☕\n\nO começo não precisa ser perfeito, só precisa existir.\nMarque quem está recomeçando 💛\n\n#recomecar #habitos #constancia #desenvolvimentopessoal #rotina #reflexao",
+      "status": "agendado",
+      "agendado_para": "2026-11-08T16:48-03:00"
+    }
+  ]
+}
