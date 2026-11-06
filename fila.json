@@ -64,28 +64,152 @@
       "tipo": "reel",
       "video": "videos/reel-001.mp4",
       "legenda": "Você não precisa de mais tempo. Precisa de decisão. ⏳\n\nDecida hoje o que você vai fazer amanhã cedo, e faça.\n📩 Envie para alguém que precisa ouvir isso\n\n#decisao #disciplina #foco #mentalidade #reflexao #crescimentopessoal",
-      "status": "rascunho"
+      "status": "descartado"
     },
     {
       "id": "reel-002",
       "tipo": "reel",
       "video": "videos/reel-002.mp4",
       "legenda": "Começar dá medo. Ficar parado dá mais. 🔥\n\nEscolha o medo que te faz crescer.\n📩 Envie para alguém que está adiando um começo\n\n#medo #coragem #disciplina #mentalidade #crescimentopessoal #foco",
-      "status": "rascunho"
+      "status": "descartado"
     },
     {
       "id": "reel-003",
       "tipo": "reel",
       "video": "videos/reel-003.mp4",
       "legenda": "3 coisas para fazer antes das 8h da manhã ☀️\n\nPequeno, simples e muda o seu dia.\n💾 Salve para testar amanhã\n📩 Envie para alguém que precisa de uma manhã melhor\n\n#rotinamatinal #habitos #produtividade #disciplina #desenvolvimentopessoal #mentalidade",
-      "status": "rascunho"
+      "status": "descartado"
     },
     {
       "id": "reel-004",
       "tipo": "reel",
       "video": "videos/reel-004.mp4",
       "legenda": "Qual é a sua meta para este mês? 🎯\n\nEscreva nos comentários. Dizer em voz alta já é o primeiro passo.\n📩 Marque alguém para cumprir a meta junto com você\n\n#metas #foco #disciplina #planejamento #mentalidade #motivacao",
+      "status": "descartado"
+    },
+    {
+      "id": "vid-001",
+      "tipo": "reel",
+      "video": "videos/vid-001.mp4",
+      "legenda": "Disciplina não é motivação. É decidir antes de sentir. 💪\n\nQual é a tarefa difícil que você vai fazer primeiro amanhã? Conta nos comentários 👇\n📩 Envie para alguém que precisa ouvir isso\n\n#disciplina #motivacao #foco #mentalidade #rotina #produtividade",
       "status": "rascunho"
+    },
+    {
+      "id": "vid-002",
+      "tipo": "reel",
+      "video": "videos/vid-002.mp4",
+      "legenda": "Você não está cansado de trabalhar. Está cansado de adiar. ⏳\n\nFaça só 5 minutos hoje.\n💾 Salve para lembrar quando bater a procrastinação\n\n#procrastinacao #foco #disciplina #produtividade #mentalidade #habitos",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-003",
+      "tipo": "reel",
+      "video": "videos/vid-003.mp4",
+      "legenda": "Sua única competição é quem você era ontem. 🌅\n\nMarque alguém que precisa lembrar disso hoje.\n\n#comparacao #crescimentopessoal #mentalidade #reflexao #foco #evolucao",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-004",
+      "tipo": "reel",
+      "video": "videos/vid-004.mp4",
+      "legenda": "3 perguntas para fazer antes de dormir 🌙\n\nResponda mentalmente e acorde com um plano.\n💾 Salve para fazer esta noite\n📩 Envie para quem precisa de uma noite mais leve\n\n#rotina #autoconhecimento #habitos #mentalidade #desenvolvimentopessoal #foco",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-005",
+      "tipo": "reel",
+      "video": "videos/vid-005.mp4",
+      "legenda": "O momento perfeito nunca chega. Comece imperfeito. 🚶\n\nO que você está esperando para começar? Escreva aqui 👇\n\n#comecar #coragem #disciplina #mentalidade #crescimento #foco",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-006",
+      "tipo": "reel",
+      "video": "videos/vid-006.mp4",
+      "legenda": "Trabalhe em silêncio. Deixe o resultado fazer o barulho. 🤫\n\nConcorda? Comenta SIM 👇\n\n#silencio #resultado #foco #mentalidade #disciplina #sucesso",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-007",
+      "tipo": "reel",
+      "video": "videos/vid-007.mp4",
+      "legenda": "Constância vence talento. 📈\n\nQuantos dias seguidos você já está firme? Conta aqui 👇\n💾 Salve para os dias difíceis\n\n#constancia #habitos #disciplina #evolucao #mentalidade #foco",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-008",
+      "tipo": "reel",
+      "video": "videos/vid-008.mp4",
+      "legenda": "A diferença não é tempo. É prioridade. ⌛\n\nO que você vai dizer NÃO hoje para ter mais foco? 👇\n📩 Envie para alguém que vive sem tempo\n\n#prioridade #foco #gestaodotempo #disciplina #mentalidade #produtividade",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-009",
+      "tipo": "reel",
+      "video": "videos/vid-009.mp4",
+      "legenda": "O desconforto é sinal de que você está saindo do lugar. 🔥\n\nSalve este vídeo para quando quiser desistir.\n📩 Envie para quem está passando por uma fase difícil\n\n#superacao #resiliencia #mentalidade #disciplina #foco #motivacao",
+      "status": "rascunho"
+    },
+    {
+      "id": "vid-010",
+      "tipo": "reel",
+      "video": "videos/vid-010.mp4",
+      "legenda": "Seu futuro é construído em dias comuns. 🏗️\n\nO que você vai fazer hoje que o seu eu de daqui a um ano vai agradecer? 👇\n\n#futuro #habitos #disciplina #mentalidade #crescimentopessoal #foco",
+      "status": "rascunho"
+    },
+    {
+      "id": "fade-001",
+      "tipo": "reel",
+      "video": "videos/fade-001.mp4",
+      "legenda": "Controle o que você sente e você vai controlar o que faz. 🏛️\n\nQual emoção mais atrapalha você hoje? Conta nos comentários 👇\n📩 Envie para alguém que precisa ouvir isso\n\n#estoicismo #mentalidade #autocontrole #disciplina #sabedoria #reflexao",
+      "musica": "trilha-01.mp3",
+      "status": "agendado",
+      "agendado_para": "2026-11-09T09:24-03:00"
+    },
+    {
+      "id": "fade-002",
+      "tipo": "reel",
+      "video": "videos/fade-002.mp4",
+      "legenda": "Ninguém sobe a montanha por você. Mas ninguém pode impedir a sua subida. ⛰️\n\nQual é a sua montanha agora? 👇\n💾 Salve para os dias difíceis\n\n#superacao #foco #disciplina #mentalidade #motivacao #persistencia",
+      "musica": "pix-piano-emotional.mp3",
+      "status": "agendado",
+      "agendado_para": "2026-11-09T12:55-03:00"
+    },
+    {
+      "id": "fade-003",
+      "tipo": "reel",
+      "video": "videos/fade-003.mp4",
+      "legenda": "O leão não explica a fome. Ele caça. 🦁\n\nMenos explicação, mais ação.\n📩 Envie para alguém que precisa agir hoje\n\n#disciplina #foco #acao #mentalidade #determinacao #sucesso",
+      "musica": "gemini-phonk-midnight-grip.mp3",
+      "status": "agendado",
+      "agendado_para": "2026-11-09T17:58-03:00"
+    },
+    {
+      "id": "fade-004",
+      "tipo": "reel",
+      "video": "videos/fade-004.mp4",
+      "legenda": "Cada movimento tem consequência. Jogue pensando no fim. ♟️\n\nQual é o próximo passo da sua estratégia? 👇\n\n#estrategia #xadrez #mentalidade #foco #planejamento #sabedoria",
+      "musica": "gemini-slowed-last-train.mp3",
+      "status": "agendado",
+      "agendado_para": "2026-11-10T09:04-03:00"
+    },
+    {
+      "id": "fade-005",
+      "tipo": "reel",
+      "video": "videos/fade-005.mp4",
+      "legenda": "Quem não enfrenta a onda nunca chega à outra margem. 🌊\n\nO que você está evitando enfrentar? 👇\n💾 Salve para lembrar\n\n#coragem #superacao #mentalidade #foco #disciplina #crescimento",
+      "musica": "pix-classical-emotional.mp3",
+      "status": "agendado",
+      "agendado_para": "2026-11-10T12:03-03:00"
+    },
+    {
+      "id": "fade-006",
+      "tipo": "reel",
+      "video": "videos/fade-006.mp4",
+      "legenda": "O amanhecer não pede permissão. Comece. 🌅\n\nQual é a primeira coisa que você vai fazer amanhã? 👇\n📩 Envie para quem precisa de um recomeço\n\n#recomecar #amanhecer #disciplina #mentalidade #motivacao #foco",
+      "musica": "pix-phonk-hard.mp3",
+      "status": "agendado",
+      "agendado_para": "2026-11-10T19:49-03:00"
     }
   ]
 }
