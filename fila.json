@@ -163,8 +163,10 @@
       "video": "videos/fade-001.mp4",
       "legenda": "Controle o que você sente e você vai controlar o que faz. 🏛️\n\nQual emoção mais atrapalha você hoje? Conta nos comentários 👇\n📩 Envie para alguém que precisa ouvir isso\n\n#estoicismo #mentalidade #autocontrole #disciplina #sabedoria #reflexao",
       "musica": "trilha-01.mp3",
-      "status": "agendado",
-      "agendado_para": "2026-11-09T09:24-03:00"
+      "status": "publicado",
+      "agendado_para": "2026-11-06T17:21-03:00",
+      "instagram_id": "18126954616906693",
+      "publicado_em": "2026-11-06T17:22:54-03:00"
     },
     {
       "id": "fade-002",
@@ -210,6 +212,38 @@
       "musica": "pix-phonk-hard.mp3",
       "status": "agendado",
       "agendado_para": "2026-11-10T19:49-03:00"
+    },
+    {
+      "id": "voz-001",
+      "tipo": "reel",
+      "video": "videos/voz-001.mp4",
+      "legenda": "Quem muda de vida não anuncia. Faz. 🤫\n\nQual coisa você anda prometendo e ainda não começou? Conta aqui 👇\n📩 Envie para quem vive dizendo \"segunda eu começo\"\n\n#disciplina #acao #foco #mentalidade #motivacao #procrastinacao",
+      "status": "rascunho",
+      "musica": "pix-epic-trailer.mp3"
+    },
+    {
+      "id": "voz-002",
+      "tipo": "reel",
+      "video": "videos/voz-002.mp4",
+      "legenda": "Dinheiro e tempo nunca sobram. Você cria. ⏳\n\nO que você está esperando para começar? 👇\n💾 Salve para lembrar quando der vontade de adiar\n\n#empreender #foco #disciplina #mentalidade #acao #sucesso",
+      "status": "rascunho",
+      "musica": "pix-slowed-legendary.mp3"
+    },
+    {
+      "id": "voz-003",
+      "tipo": "reel",
+      "video": "videos/voz-003.mp4",
+      "legenda": "Todo mundo tem um plano. Poucos têm disciplina. 💪\n\nVocê está no grupo que fala ou no que faz? 👇\n📩 Envie para alguém que precisa agir\n\n#disciplina #resultado #foco #mentalidade #constancia #motivacao",
+      "status": "rascunho",
+      "musica": "pix-cinematic-motivational.mp3"
+    },
+    {
+      "id": "voz-004",
+      "tipo": "reel",
+      "video": "videos/voz-004.mp4",
+      "legenda": "Persistência é continuar quando ninguém aplaude. 🔥\n\nHoje foi difícil? Continue mesmo assim.\n💾 Salve para os dias pesados\n\n#persistencia #disciplina #foco #resiliencia #mentalidade #superacao",
+      "status": "rascunho",
+      "musica": "pix-dark-ambient.mp3"
     }
   ]
 }
