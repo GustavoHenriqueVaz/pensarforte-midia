@@ -337,9 +337,11 @@
       "tipo": "reel",
       "video": "videos/voz-005.mp4",
       "legenda": "Ninguém vai te aplaudir no começo. Faça mesmo assim. 👏\n\nVocê está esperando aplauso para começar? 👇\n📩 Envie para quem precisa trabalhar em silêncio\n\n#trabalho #disciplina #foco #mentalidade #resultado #acao",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-slowed-dreaming-of-sun-614718.mp3",
-      "agendado_para": "2026-11-07T13:12-03:00"
+      "agendado_para": "2026-11-07T13:12-03:00",
+      "instagram_id": "18027565202947631",
+      "publicado_em": "2026-11-07T14:47:51-03:00"
     },
     {
       "id": "voz-006",
