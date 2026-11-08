@@ -358,9 +358,11 @@
       "tipo": "reel",
       "video": "videos/voz-007.mp4",
       "legenda": "Cinco da manhã. Frio. Sem vontade. É aí que a vida muda. ⏰\n\nQue horas você acorda? 👇\n\n#acordarcedo #rotina #disciplina #mentalidade #foco #manha",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-dark-cinematic-620558.mp3",
-      "agendado_para": "2026-11-08T08:40-03:00"
+      "agendado_para": "2026-11-08T08:40-03:00",
+      "instagram_id": "17995584012056973",
+      "publicado_em": "2026-11-08T10:50:15-03:00"
     },
     {
       "id": "voz-008",
