@@ -314,9 +314,11 @@
       "tipo": "reel",
       "video": "videos/fade-014.mp4",
       "legenda": "Quem treina quando ninguém vê, vence quando todos olham. 💪\n\nEnvie para o seu parceiro de treino ou de meta.\n\n#treino #disciplina #foco #mentalidade #constancia #resultado",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-slowed-up-from-ash-616142.mp3",
-      "agendado_para": "2026-11-08T16:48-03:00"
+      "agendado_para": "2026-11-08T16:48-03:00",
+      "instagram_id": "17916676200493980",
+      "publicado_em": "2026-11-08T19:26:16-03:00"
     },
     {
       "id": "fade-015",
