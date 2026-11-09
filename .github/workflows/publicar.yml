@@ -1,7 +1,9 @@
 name: publicar
 on:
   schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
+    # o GitHub dispara de forma irregular; cada execução fica viva ~5h30, então várias execuções se emendam
+    - cron: "11 */3 * * *"
+    - cron: "41 1,7,13,19 * * *"
   workflow_dispatch:
 concurrency:
   group: publicar
@@ -11,7 +13,7 @@ permissions:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - name: Descriptografar segredos
@@ -20,10 +22,11 @@ jobs:
         run: |
           openssl enc -aes-256-cbc -pbkdf2 -d -in segredos.enc -out .env -pass env:SENHA
           sha256sum .env | cut -d' ' -f1 > .env.hash
-      - name: Publicar o que venceu
+      - name: Publicador continuo (confere a fila a cada ~75 s por 5h30)
         env:
-          MODO_NUVEM: "1"
-        run: python3 publicar.py
+          LOOP_MINUTOS: "330"
+          LOOP_PAUSA: "75"
+        run: python3 publicar_loop.py
       - name: Regravar segredos se o token foi renovado
         if: always()
         env:
@@ -41,5 +44,5 @@ jobs:
           git add fila.json segredos.enc
           if ! git diff --cached --quiet; then
             git commit -m "automático: atualiza fila"
-            for i in 1 2 3 4; do git pull --rebase && git push && break || sleep 6; done
+            for i in 1 2 3 4; do git pull --rebase --autostash && git push && break || sleep 6; done
           fi

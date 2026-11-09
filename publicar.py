@@ -250,7 +250,7 @@ def main():
         json.dump(fila, open(FILA, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     if not simular:
         json.dump(fila, open(FILA, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    if feitos == 0:
+    if feitos == 0 and not os.environ.get("QUIETO"):
         log("nada vencido para publicar")
 
 
