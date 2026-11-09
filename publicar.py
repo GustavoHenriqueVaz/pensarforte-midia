@@ -98,10 +98,21 @@ def subir_arquivo(rel, cfg):
         destino = os.path.join(MIDIA, rel)
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         shutil.copyfile(origem, destino)
+        # a nuvem também grava no repositório: sempre atualizar antes e tentar de novo se o push for rejeitado
+        subprocess.run(["git", "-C", MIDIA, "pull", "--rebase", "--autostash"], capture_output=True, text=True)
         git("add", rel)
         if git("status", "--porcelain").strip():
             git("commit", "-m", f"midia {rel}")
-        git("push", "origin", "HEAD")
+        ultimo = ""
+        for _ in range(4):
+            r = subprocess.run(["git", "-C", MIDIA, "push", "origin", "HEAD"], capture_output=True, text=True)
+            if r.returncode == 0:
+                break
+            ultimo = r.stderr.strip()[:200]
+            subprocess.run(["git", "-C", MIDIA, "pull", "--rebase", "--autostash"], capture_output=True, text=True)
+            time.sleep(3)
+        else:
+            raise RuntimeError(f"git push falhou 4 vezes: {ultimo}")
     return esperar_url(url_publica(rel, cfg))
 
 
@@ -230,9 +241,11 @@ def main():
             item["publicado_em"] = datetime.now(BRT).isoformat(timespec="seconds")
             log(f"publicado {item['id']} -> {item['instagram_id']}")
         except Exception as e:
-            item["status"] = "erro"
-            item["erro"] = str(e)
-            log(f"ERRO em {item['id']}: {e}")
+            # erro pode ser passageiro (rede, push rejeitado): tenta de novo nas próximas execuções, até 3 vezes
+            item["tentativas"] = item.get("tentativas", 0) + 1
+            item["erro"] = str(e)[:300]
+            item["status"] = "erro" if item["tentativas"] >= 3 else "agendado"
+            log(f"ERRO em {item['id']} (tentativa {item['tentativas']}/3): {str(e)[:200]}")
         feitos += 1
         json.dump(fila, open(FILA, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     if not simular:
