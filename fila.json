@@ -260,7 +260,7 @@
       "legenda": "Persistência é continuar quando ninguém aplaude. 🔥\n\nHoje foi difícil? Continue mesmo assim.\n💾 Salve para os dias pesados\n\n#persistencia #disciplina #foco #resiliencia #mentalidade #superacao",
       "status": "agendado",
       "musica": "pix-dark-ambient.mp3",
-      "agendado_para": "2026-11-12T12:01-03:00"
+      "agendado_para": "2026-11-14T17:36-03:00"
     },
     {
       "id": "fade-007",
@@ -325,7 +325,7 @@
       "legenda": "Suba um degrau por dia. Um dia você olha para trás e não reconhece o chão. 🪜\n\n💾 Salve para os dias em que parecer que nada muda\n\n#evolucao #constancia #habitos #mentalidade #crescimento #disciplina",
       "status": "agendado",
       "musica": "pix-phonk-sub-clair-588307.mp3",
-      "agendado_para": "2026-11-13T11:02-03:00"
+      "agendado_para": "2026-11-14T21:29-03:00"
     },
     {
       "id": "fade-014",
@@ -422,7 +422,7 @@
       "legenda": "Você não precisa de um grande dia. Precisa de pequenos dias repetidos. 👣\n\n💾 Salve para lembrar\n📩 Envie para quem está começando\n\n#habitos #constancia #pequenospassos #mentalidade #disciplina #evolucao",
       "status": "agendado",
       "musica": "pix-mystery-dark-625070.mp3",
-      "agendado_para": "2026-11-14T12:49-03:00"
+      "agendado_para": "2026-11-15T07:18-03:00"
     },
     {
       "id": "voz-012",
@@ -591,6 +591,132 @@
       "musica": "pix-phonk-neon-night-drive-588671.mp3",
       "status": "agendado",
       "agendado_para": "2026-11-11T20:56-03:00"
+    },
+    {
+      "id": "carrossel-007",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-007-1.jpg",
+        "imagens/car-007-2.jpg",
+        "imagens/car-007-3.jpg",
+        "imagens/car-007-4.jpg",
+        "imagens/car-007-5.jpg",
+        "imagens/car-007-6.jpg",
+        "imagens/car-007-7.jpg",
+        "imagens/car-007-8.jpg",
+        "imagens/car-007-9.jpg"
+      ],
+      "legenda": "Sinais de que você está evoluindo, mesmo sem perceber.\n\n📌 Neste carrossel:\n• Você já não aceita o que aceitava.\n• Você pensa antes de reagir.\n• Você se cobra mais do que cobra os outros.\n• Você perdeu a pressa de provar algo.\n\n💬 Qual desses sinais você já reconhece em você? Responda com o número.\n💾 Salve para reler quando precisar.\n📩 Envie para alguém que está evoluindo e nem percebe.\n\nSiga @opensarforte para mais.\n\n#evolucao #mentalidade #crescimentopessoal #disciplina #autoconhecimento #foco",
+      "status": "agendado",
+      "agendado_para": "2026-11-12T12:01-03:00"
+    },
+    {
+      "id": "carrossel-008",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-008-1.jpg",
+        "imagens/car-008-2.jpg",
+        "imagens/car-008-3.jpg",
+        "imagens/car-008-4.jpg",
+        "imagens/car-008-5.jpg",
+        "imagens/car-008-6.jpg",
+        "imagens/car-008-7.jpg",
+        "imagens/car-008-8.jpg",
+        "imagens/car-008-9.jpg"
+      ],
+      "legenda": "Coisas que ninguém te conta sobre mudar de vida.\n\n📌 Neste carrossel:\n• No começo, ninguém aplaude.\n• Algumas pessoas vão se afastar.\n• Vai parecer que nada está mudando.\n• Você vai querer voltar ao antigo.\n\n💬 Qual dessas você já sentiu na pele? Escreva aqui 👇\n💾 Salve para reler quando precisar.\n📩 Mande para alguém que está tentando mudar.\n\nSiga @opensarforte para mais.\n\n#mudancadevida #mentalidade #disciplina #constancia #superacao #foco",
+      "status": "agendado",
+      "agendado_para": "2026-11-13T11:02-03:00"
+    },
+    {
+      "id": "carrossel-009",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-009-1.jpg",
+        "imagens/car-009-2.jpg",
+        "imagens/car-009-3.jpg",
+        "imagens/car-009-4.jpg",
+        "imagens/car-009-5.jpg",
+        "imagens/car-009-6.jpg",
+        "imagens/car-009-7.jpg",
+        "imagens/car-009-8.jpg",
+        "imagens/car-009-9.jpg"
+      ],
+      "legenda": "Hábitos pequenos que mudam uma vida em 90 dias.\n\n📌 Neste carrossel:\n• Acordar 15 minutos mais cedo.\n• Anotar 3 prioridades do dia.\n• Caminhar 20 minutos.\n• Ler 10 páginas.\n\n💬 Qual hábito você vai começar hoje? Escreva o número 👇\n💾 Salve para reler quando precisar.\n📩 Envie para quem precisa organizar a rotina.\n\nSiga @opensarforte para mais.\n\n#habitos #rotina #disciplina #produtividade #mentalidade #constancia",
+      "status": "agendado",
+      "agendado_para": "2026-11-14T12:49-03:00"
+    },
+    {
+      "id": "carrossel-010",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-010-1.jpg",
+        "imagens/car-010-2.jpg",
+        "imagens/car-010-3.jpg",
+        "imagens/car-010-4.jpg",
+        "imagens/car-010-5.jpg",
+        "imagens/car-010-6.jpg",
+        "imagens/car-010-7.jpg",
+        "imagens/car-010-8.jpg",
+        "imagens/car-010-9.jpg"
+      ],
+      "legenda": "Frases para ler quando você quiser desistir.\n\n📌 Neste carrossel:\n• Cansar é diferente de desistir.\n• Você já passou por dias piores.\n• Ninguém vê o quanto você já andou.\n• Quem desiste cedo nunca descobre.\n\n💬 Qual frase você precisava ler hoje? Responda com o número 👇\n💾 Salve para reler quando precisar.\n📩 Mande para alguém que está no limite hoje.\n\nSiga @opensarforte para mais.\n\n#motivacao #superacao #persistencia #mentalidade #forca #nuncadesista",
+      "status": "agendado",
+      "agendado_para": "2026-11-15T10:38-03:00"
+    },
+    {
+      "id": "carrossel-011",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-011-1.jpg",
+        "imagens/car-011-2.jpg",
+        "imagens/car-011-3.jpg",
+        "imagens/car-011-4.jpg",
+        "imagens/car-011-5.jpg",
+        "imagens/car-011-6.jpg",
+        "imagens/car-011-7.jpg",
+        "imagens/car-011-8.jpg",
+        "imagens/car-011-9.jpg"
+      ],
+      "legenda": "Você é qual desses? Seja sincero.\n\n📌 Neste carrossel:\n• O que começa tudo e termina nada.\n• O que espera o momento perfeito.\n• O que reclama e não muda.\n• O que faz em silêncio.\n\n💬 Qual deles você é hoje? Responda com o número, sem mentir 😅\n💾 Salve para reler quando precisar.\n📩 Marque o amigo que é o número 1.\n\nSiga @opensarforte para mais.\n\n#autoconhecimento #mentalidade #disciplina #crescimento #foco #reflexao",
+      "status": "agendado",
+      "agendado_para": "2026-11-15T13:31-03:00"
+    },
+    {
+      "id": "carrossel-012",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-012-1.jpg",
+        "imagens/car-012-2.jpg",
+        "imagens/car-012-3.jpg",
+        "imagens/car-012-4.jpg",
+        "imagens/car-012-5.jpg",
+        "imagens/car-012-6.jpg",
+        "imagens/car-012-7.jpg",
+        "imagens/car-012-8.jpg",
+        "imagens/car-012-9.jpg"
+      ],
+      "legenda": "Pare de fazer isso consigo mesmo.\n\n📌 Neste carrossel:\n• Pare de se comparar.\n• Pare de adiar o que importa.\n• Pare de pedir permissão.\n• Pare de se punir por errar.\n\n💬 Qual desses você precisa parar hoje? Responda com o número 👇\n💾 Salve para reler quando precisar.\n📩 Envie para alguém que precisa ouvir isso.\n\nSiga @opensarforte para mais.\n\n#autocuidado #mentalidade #crescimentopessoal #disciplina #foco #reflexao",
+      "status": "agendado",
+      "agendado_para": "2026-11-15T17:58-03:00"
+    },
+    {
+      "id": "carrossel-013",
+      "tipo": "carrossel",
+      "imagens": [
+        "imagens/car-013-1.jpg",
+        "imagens/car-013-2.jpg",
+        "imagens/car-013-3.jpg",
+        "imagens/car-013-4.jpg",
+        "imagens/car-013-5.jpg",
+        "imagens/car-013-6.jpg",
+        "imagens/car-013-7.jpg",
+        "imagens/car-013-8.jpg",
+        "imagens/car-013-9.jpg"
+      ],
+      "legenda": "Sua rotina diz mais sobre seu futuro do que seus sonhos.\n\n📌 Neste carrossel:\n• Sonho sem rotina é só vontade.\n• O que você repete, você se torna.\n• Seu horário revela suas prioridades.\n• Troque 'quero' por 'todo dia eu'.\n\n💬 Qual é o seu mínimo inegociável de todo dia? Escreva aqui 👇\n💾 Salve para reler quando precisar.\n📩 Mande para quem tem sonhos e precisa de rotina.\n\nSiga @opensarforte para mais.\n\n#rotina #habitos #disciplina #mentalidade #sonhos #constancia",
+      "status": "agendado",
+      "agendado_para": "2026-11-15T22:00-03:00"
     }
   ]
 }
