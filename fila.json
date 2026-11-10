@@ -182,7 +182,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-09T12:55-03:00",
       "instagram_id": "18344584168261345",
-      "publicado_em": "2026-11-09T12:56:20-03:00"
+      "publicado_em": "2026-11-09T13:04:43-03:00"
     },
     {
       "id": "fade-003",
@@ -193,7 +193,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-09T17:58-03:00",
       "instagram_id": "18425745031153406",
-      "publicado_em": "2026-11-09T19:17:08-03:00"
+      "publicado_em": "2026-11-09T18:05:19-03:00"
     },
     {
       "id": "fade-004",
@@ -204,7 +204,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-10T09:04-03:00",
       "instagram_id": "18111207263353196",
-      "publicado_em": "2026-11-10T09:04:32-03:00"
+      "publicado_em": "2026-11-10T15:59:27-03:00"
     },
     {
       "id": "fade-005",
@@ -215,7 +215,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-10T12:03-03:00",
       "instagram_id": "18148665682580031",
-      "publicado_em": "2026-11-10T14:00:43-03:00"
+      "publicado_em": "2026-11-10T15:59:28-03:00"
     },
     {
       "id": "fade-006",
@@ -231,40 +231,45 @@
       "tipo": "reel",
       "video": "videos/voz-001.mp4",
       "legenda": "Quem muda de vida não anuncia. Faz. 🤫\n\nQual coisa você anda prometendo e ainda não começou? Conta aqui 👇\n📩 Envie para quem vive dizendo \"segunda eu começo\"\n\n#disciplina #acao #foco #mentalidade #motivacao #procrastinacao",
-      "status": "rascunho",
-      "musica": "pix-epic-trailer.mp3"
+      "status": "agendado",
+      "musica": "pix-epic-trailer.mp3",
+      "agendado_para": "2026-11-11T21:20-03:00"
     },
     {
       "id": "voz-002",
       "tipo": "reel",
       "video": "videos/voz-002.mp4",
       "legenda": "Dinheiro e tempo nunca sobram. Você cria. ⏳\n\nO que você está esperando para começar? 👇\n💾 Salve para lembrar quando der vontade de adiar\n\n#empreender #foco #disciplina #mentalidade #acao #sucesso",
-      "status": "rascunho",
-      "musica": "pix-slowed-legendary.mp3"
+      "status": "agendado",
+      "musica": "pix-slowed-legendary.mp3",
+      "agendado_para": "2026-11-12T08:27-03:00"
     },
     {
       "id": "voz-003",
       "tipo": "reel",
       "video": "videos/voz-003.mp4",
       "legenda": "Todo mundo tem um plano. Poucos têm disciplina. 💪\n\nVocê está no grupo que fala ou no que faz? 👇\n📩 Envie para alguém que precisa agir\n\n#disciplina #resultado #foco #mentalidade #constancia #motivacao",
-      "status": "rascunho",
-      "musica": "pix-cinematic-motivational.mp3"
+      "status": "agendado",
+      "musica": "pix-cinematic-motivational.mp3",
+      "agendado_para": "2026-11-12T10:24-03:00"
     },
     {
       "id": "voz-004",
       "tipo": "reel",
       "video": "videos/voz-004.mp4",
       "legenda": "Persistência é continuar quando ninguém aplaude. 🔥\n\nHoje foi difícil? Continue mesmo assim.\n💾 Salve para os dias pesados\n\n#persistencia #disciplina #foco #resiliencia #mentalidade #superacao",
-      "status": "rascunho",
-      "musica": "pix-dark-ambient.mp3"
+      "status": "agendado",
+      "musica": "pix-dark-ambient.mp3",
+      "agendado_para": "2026-11-12T12:01-03:00"
     },
     {
       "id": "fade-007",
       "tipo": "reel",
       "video": "videos/fade-007.mp4",
       "legenda": "Quem aguenta o silêncio, aguenta o processo. 🪜\n\nQual degrau você vai subir hoje? 👇\n📩 Envie para alguém que está subindo devagar\n\n#processo #constancia #disciplina #mentalidade #foco #evolucao",
-      "status": "rascunho",
-      "musica": "pix-piano-legendary-615161.mp3"
+      "status": "agendado",
+      "musica": "pix-piano-legendary-615161.mp3",
+      "agendado_para": "2026-11-12T15:28-03:00"
     },
     {
       "id": "fade-008",
@@ -282,40 +287,45 @@
       "tipo": "reel",
       "video": "videos/fade-009.mp4",
       "legenda": "Cada dia que você adia é um dia que o medo vence. ⚡\n\nO que você vai fazer hoje, mesmo com medo? 👇\n\n#coragem #medo #acao #mentalidade #disciplina #foco",
-      "status": "rascunho",
-      "musica": "pix-piano-differently-615165.mp3"
+      "status": "agendado",
+      "musica": "pix-piano-differently-615165.mp3",
+      "agendado_para": "2026-11-12T18:39-03:00"
     },
     {
       "id": "fade-010",
       "tipo": "reel",
       "video": "videos/fade-010.mp4",
       "legenda": "A tempestade não dura para sempre. Quem resiste, colhe. 🌩️\n\nEnvie para alguém que está atravessando uma fase difícil.\n\n#resiliencia #superacao #persistencia #mentalidade #foco #forca",
-      "status": "rascunho",
-      "musica": "pix-trap-atmosphere-583431.mp3"
+      "status": "agendado",
+      "musica": "pix-trap-atmosphere-583431.mp3",
+      "agendado_para": "2026-11-12T20:38-03:00"
     },
     {
       "id": "fade-011",
       "tipo": "reel",
       "video": "videos/fade-011.mp4",
       "legenda": "Leia hoje o que vai mudar você amanhã. 📖\n\nQual foi o último livro que mudou sua cabeça? 👇\n💾 Salve para lembrar de ler\n\n#leitura #livros #conhecimento #mentalidade #desenvolvimentopessoal #habitos",
-      "status": "rascunho",
-      "musica": "pix-ambient-dark-626823.mp3"
+      "status": "agendado",
+      "musica": "pix-ambient-dark-626823.mp3",
+      "agendado_para": "2026-11-13T07:26-03:00"
     },
     {
       "id": "fade-012",
       "tipo": "reel",
       "video": "videos/fade-012.mp4",
       "legenda": "O tempo não volta. Use o seu com respeito. ⏳\n\nEm que você gastou seu tempo hoje? 👇\n\n#tempo #gestaodotempo #foco #mentalidade #disciplina #reflexao",
-      "status": "rascunho",
-      "musica": "pix-slowed-piano-leaf.mp3"
+      "status": "agendado",
+      "musica": "pix-slowed-piano-leaf.mp3",
+      "agendado_para": "2026-11-13T09:26-03:00"
     },
     {
       "id": "fade-013",
       "tipo": "reel",
       "video": "videos/fade-013.mp4",
       "legenda": "Suba um degrau por dia. Um dia você olha para trás e não reconhece o chão. 🪜\n\n💾 Salve para os dias em que parecer que nada muda\n\n#evolucao #constancia #habitos #mentalidade #crescimento #disciplina",
-      "status": "rascunho",
-      "musica": "pix-phonk-sub-clair-588307.mp3"
+      "status": "agendado",
+      "musica": "pix-phonk-sub-clair-588307.mp3",
+      "agendado_para": "2026-11-13T11:02-03:00"
     },
     {
       "id": "fade-014",
@@ -334,16 +344,18 @@
       "tipo": "reel",
       "video": "videos/fade-015.mp4",
       "legenda": "As nuvens passam. O céu continua. Você também. ☁️\n\nRespire fundo e siga em frente.\n📩 Envie para alguém que precisa ouvir isso\n\n#reflexao #paz #resiliencia #mentalidade #superacao #calma",
-      "status": "rascunho",
-      "musica": "pix-piano-drama-580533.mp3"
+      "status": "agendado",
+      "musica": "pix-piano-drama-580533.mp3",
+      "agendado_para": "2026-11-13T13:14-03:00"
     },
     {
       "id": "fade-016",
       "tipo": "reel",
       "video": "videos/fade-016.mp4",
       "legenda": "Respire. Recomece. Você ainda está no jogo. 🌤️\n\nO que você vai recomeçar hoje? 👇\n\n#recomecar #esperanca #foco #mentalidade #motivacao #forca",
-      "status": "rascunho",
-      "musica": "pix-trap-dark-595789.mp3"
+      "status": "agendado",
+      "musica": "pix-trap-dark-595789.mp3",
+      "agendado_para": "2026-11-13T15:29-03:00"
     },
     {
       "id": "voz-005",
@@ -361,8 +373,9 @@
       "tipo": "reel",
       "video": "videos/voz-006.mp4",
       "legenda": "Você não está perdido. Está confortável. 🚪\n\nQual zona de conforto você precisa deixar? 👇\n💾 Salve para lembrar\n\n#conforto #crescimento #coragem #mentalidade #disciplina #mudanca",
-      "status": "rascunho",
-      "musica": "pix-phonk-brasileiro-588665.mp3"
+      "status": "agendado",
+      "musica": "pix-phonk-brasileiro-588665.mp3",
+      "agendado_para": "2026-11-13T17:32-03:00"
     },
     {
       "id": "voz-007",
@@ -380,56 +393,63 @@
       "tipo": "reel",
       "video": "videos/voz-008.mp4",
       "legenda": "Motivação é visita. Disciplina mora aqui. 🏠\n\n💾 Salve para os dias em que a vontade sumir\n📩 Envie para alguém que vive esperando motivação\n\n#motivacao #disciplina #habitos #foco #mentalidade #constancia",
-      "status": "rascunho",
-      "musica": "pix-phonk-songs-593656.mp3"
+      "status": "agendado",
+      "musica": "pix-phonk-songs-593656.mp3",
+      "agendado_para": "2026-11-13T21:29-03:00"
     },
     {
       "id": "voz-009",
       "tipo": "reel",
       "video": "videos/voz-009.mp4",
       "legenda": "Todo mundo quer o resultado. Ninguém quer o processo. 🛠️\n\nQual parte do processo você mais evita? 👇\n\n#processo #resultado #disciplina #mentalidade #constancia #foco",
-      "status": "rascunho",
-      "musica": "pix-suspense-tension-623319.mp3"
+      "status": "agendado",
+      "musica": "pix-suspense-tension-623319.mp3",
+      "agendado_para": "2026-11-14T07:05-03:00"
     },
     {
       "id": "voz-010",
       "tipo": "reel",
       "video": "videos/voz-010.mp4",
       "legenda": "Não conte seus planos. Conte seus resultados. 🤐\n\nConcorda? Comenta SIM 👇\n\n#silencio #resultado #foco #mentalidade #disciplina #planejamento",
-      "status": "rascunho",
-      "musica": "pix-phonk-612397.mp3"
+      "status": "agendado",
+      "musica": "pix-phonk-612397.mp3",
+      "agendado_para": "2026-11-14T10:45-03:00"
     },
     {
       "id": "voz-011",
       "tipo": "reel",
       "video": "videos/voz-011.mp4",
       "legenda": "Você não precisa de um grande dia. Precisa de pequenos dias repetidos. 👣\n\n💾 Salve para lembrar\n📩 Envie para quem está começando\n\n#habitos #constancia #pequenospassos #mentalidade #disciplina #evolucao",
-      "status": "rascunho",
-      "musica": "pix-mystery-dark-625070.mp3"
+      "status": "agendado",
+      "musica": "pix-mystery-dark-625070.mp3",
+      "agendado_para": "2026-11-14T12:49-03:00"
     },
     {
       "id": "voz-012",
       "tipo": "reel",
       "video": "videos/voz-012.mp4",
       "legenda": "A vida não é justa. Mas recompensa quem insiste. 🔁\n\nQuantos dias você já insistiu? 👇\n\n#persistencia #insistir #superacao #mentalidade #foco #disciplina",
-      "status": "rascunho",
-      "musica": "pix-phonk-drift-night-573644.mp3"
+      "status": "agendado",
+      "musica": "pix-phonk-drift-night-573644.mp3",
+      "agendado_para": "2026-11-14T15:29-03:00"
     },
     {
       "id": "voz-013",
       "tipo": "reel",
       "video": "videos/voz-013.mp4",
       "legenda": "Sua mente vai tentar te convencer a parar. Você não precisa obedecer. 🧠\n\n📩 Envie para quem quase desistiu\n\n#mente #forcamental #persistencia #mentalidade #disciplina #superacao",
-      "status": "rascunho",
-      "musica": "pix-trap-beat-590006.mp3"
+      "status": "agendado",
+      "musica": "pix-trap-beat-590006.mp3",
+      "agendado_para": "2026-11-14T19:29-03:00"
     },
     {
       "id": "voz-014",
       "tipo": "reel",
       "video": "videos/voz-014.mp4",
       "legenda": "O dia acaba. A sua desculpa também pode acabar. 🌙\n\nQual desculpa você vai deixar para trás hoje? 👇\n\n#desculpas #acao #disciplina #mentalidade #foco #mudanca",
-      "status": "rascunho",
-      "musica": "pix-cinematic-tension-620587.mp3"
+      "status": "agendado",
+      "musica": "pix-cinematic-tension-620587.mp3",
+      "agendado_para": "2026-11-14T21:22-03:00"
     },
     {
       "id": "carrossel-002",
