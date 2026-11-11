@@ -591,7 +591,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-11T15:38-03:00",
       "instagram_id": "18000109821018967",
-      "publicado_em": "2026-11-11T15:39:46-03:00"
+      "publicado_em": "2026-11-11T15:44:42-03:00"
     },
     {
       "id": "gancho-004",
@@ -629,7 +629,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-11T14:51-03:00",
       "instagram_id": "18115204547135247",
-      "publicado_em": "2026-11-11T14:52:32-03:00"
+      "publicado_em": "2026-11-11T14:54:42-03:00"
     },
     {
       "id": "carrossel-008",
@@ -1352,6 +1352,14 @@
       "video": "videos/palito-001.mp4",
       "legenda": "Por que você adia tudo? Não é preguiça. 🕯️\n\n💬 Comente COMEÇAR se você precisava ouvir isso 👇\n💾 Salve para o dia em que bater a procrastinação\n📩 Envie para quem vive deixando para depois\n\n#procrastinacao #mentalidade #disciplina #motivacao #foco #reflexao",
       "status": "rascunho"
+    },
+    {
+      "id": "bolinhas-001",
+      "tipo": "reel",
+      "video": "videos/bolinhas-001.mp4",
+      "legenda": "Toda vez que a fechadura fecha, as bolinhas se multiplicam. Até estourar. 🔵🟡🟢\n\n💬 Quantas bolinhas você acha que cabem no final? 👇\n💾 Salve para assistir de novo\n📩 Envie para quem gosta de coisas satisfatórias\n\n#satisfying #oddlysatisfying #asmr #simulation #relaxing #reels",
+      "status": "agendado",
+      "agendado_para": "2026-11-11T16:33-03:00"
     }
   ]
 }
