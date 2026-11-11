@@ -588,8 +588,8 @@
       "video": "videos/gancho-003.mp4",
       "legenda": "Quantas vezes você disse \"amanhã\"? ⏳\n\nAmanhã é o dia em que nada acontece. Comece agora.\n💬 O que você vai começar HOJE? 👇\n📩 Envie para quem vive adiando\n\n#procrastinacao #acao #disciplina #foco #mentalidade #comecaragora",
       "musica": "pix-phonk-hard-624946.mp3",
-      "status": "manual",
-      "agendado_para": "2026-11-11T13:36-03:00"
+      "status": "agendado",
+      "agendado_para": "2026-11-11T15:38"
     },
     {
       "id": "gancho-004",
@@ -597,7 +597,7 @@
       "video": "videos/gancho-004.mp4",
       "legenda": "Você é qual dos dois? 🤔\n\nQuem fala: \"um dia eu começo.\" Quem faz: já começou ontem.\n💬 Responda: FALA ou FAZ? 👇\n📩 Envie para quem precisa decidir\n\n#acao #disciplina #foco #mentalidade #decisao #motivacao",
       "musica": "pix-hero-drop-144100.mp3",
-      "status": "manual",
+      "status": "agendado",
       "agendado_para": "2026-11-11T21:06-03:00"
     },
     {
@@ -624,8 +624,8 @@
         "imagens/car-007-9.jpg"
       ],
       "legenda": "Sinais de que você está evoluindo, mesmo sem perceber.\n\n📌 Neste carrossel:\n• Você já não aceita o que aceitava.\n• Você pensa antes de reagir.\n• Você se cobra mais do que cobra os outros.\n• Você perdeu a pressa de provar algo.\n\n💬 Qual desses sinais você já reconhece em você? Responda com o número.\n💾 Salve para reler quando precisar.\n📩 Envie para alguém que está evoluindo e nem percebe.\n\nSiga @opensarforte para mais.\n\n#evolucao #mentalidade #crescimentopessoal #disciplina #autoconhecimento #foco",
-      "status": "manual",
-      "agendado_para": "2026-11-11T11:26-03:00"
+      "status": "agendado",
+      "agendado_para": "2026-11-11T14:51"
     },
     {
       "id": "carrossel-008",
@@ -642,7 +642,7 @@
         "imagens/car-008-9.jpg"
       ],
       "legenda": "Coisas que ninguém te conta sobre mudar de vida.\n\n📌 Neste carrossel:\n• No começo, ninguém aplaude.\n• Algumas pessoas vão se afastar.\n• Vai parecer que nada está mudando.\n• Você vai querer voltar ao antigo.\n\n💬 Qual dessas você já sentiu na pele? Escreva aqui 👇\n💾 Salve para reler quando precisar.\n📩 Mande para alguém que está tentando mudar.\n\nSiga @opensarforte para mais.\n\n#mudancadevida #mentalidade #disciplina #constancia #superacao #foco",
-      "status": "manual",
+      "status": "agendado",
       "agendado_para": "2026-11-11T18:28-03:00"
     },
     {
@@ -1341,6 +1341,13 @@
       "legenda": "90 dias fazendo só isso. Depois você me agradece. 📆\n\n💬 Você faria 90 dias? Responda 'sim' 👇\n💾 Salve para reler quando precisar\n📩 Envie para alguém que precisa ouvir isso\n\n#motivacao #mentalidade #disciplina #foco #crescimentopessoal #reflexao",
       "status": "rascunho",
       "musica": "gemini-drill-melodico.mp3"
+    },
+    {
+      "id": "palito-001",
+      "tipo": "reel",
+      "video": "videos/palito-001.mp4",
+      "legenda": "Por que você adia tudo? Não é preguiça. 🕯️\n\n💬 Comente COMEÇAR se você precisava ouvir isso 👇\n💾 Salve para o dia em que bater a procrastinação\n📩 Envie para quem vive deixando para depois\n\n#procrastinacao #mentalidade #disciplina #motivacao #foco #reflexao",
+      "status": "rascunho"
     }
   ]
 }
