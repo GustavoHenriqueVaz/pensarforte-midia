@@ -62,7 +62,8 @@
         "imagens/carrossel-001-6.jpg"
       ],
       "legenda": "5 hábitos simples que mudam sua rotina 👇\n\nVocê não precisa fazer tudo de uma vez. Escolha UM e comece amanhã.\n\n💾 Salve para não esquecer\n📩 Envie para alguém que precisa de uma rotina nova\n💬 Qual destes você já faz? Responda com o número\n\n#rotina #habitos #disciplina #produtividade #desenvolvimentopessoal #mentalidade",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T08:17-03:00"
     },
     {
       "id": "reel-001",
@@ -97,70 +98,80 @@
       "tipo": "reel",
       "video": "videos/vid-001.mp4",
       "legenda": "Disciplina não é motivação. É decidir antes de sentir. 💪\n\nQual é a tarefa difícil que você vai fazer primeiro amanhã? Conta nos comentários 👇\n📩 Envie para alguém que precisa ouvir isso\n\n#disciplina #motivacao #foco #mentalidade #rotina #produtividade",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T09:15-03:00"
     },
     {
       "id": "vid-002",
       "tipo": "reel",
       "video": "videos/vid-002.mp4",
       "legenda": "Você não está cansado de trabalhar. Está cansado de adiar. ⏳\n\nFaça só 5 minutos hoje.\n💾 Salve para lembrar quando bater a procrastinação\n\n#procrastinacao #foco #disciplina #produtividade #mentalidade #habitos",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T10:24-03:00"
     },
     {
       "id": "vid-003",
       "tipo": "reel",
       "video": "videos/vid-003.mp4",
       "legenda": "Sua única competição é quem você era ontem. 🌅\n\nMarque alguém que precisa lembrar disso hoje.\n\n#comparacao #crescimentopessoal #mentalidade #reflexao #foco #evolucao",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T12:36-03:00"
     },
     {
       "id": "vid-004",
       "tipo": "reel",
       "video": "videos/vid-004.mp4",
       "legenda": "3 perguntas para fazer antes de dormir 🌙\n\nResponda mentalmente e acorde com um plano.\n💾 Salve para fazer esta noite\n📩 Envie para quem precisa de uma noite mais leve\n\n#rotina #autoconhecimento #habitos #mentalidade #desenvolvimentopessoal #foco",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T13:35-03:00"
     },
     {
       "id": "vid-005",
       "tipo": "reel",
       "video": "videos/vid-005.mp4",
       "legenda": "O momento perfeito nunca chega. Comece imperfeito. 🚶\n\nO que você está esperando para começar? Escreva aqui 👇\n\n#comecar #coragem #disciplina #mentalidade #crescimento #foco",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T15:02-03:00"
     },
     {
       "id": "vid-006",
       "tipo": "reel",
       "video": "videos/vid-006.mp4",
       "legenda": "Trabalhe em silêncio. Deixe o resultado fazer o barulho. 🤫\n\nConcorda? Comenta SIM 👇\n\n#silencio #resultado #foco #mentalidade #disciplina #sucesso",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T17:32-03:00"
     },
     {
       "id": "vid-007",
       "tipo": "reel",
       "video": "videos/vid-007.mp4",
       "legenda": "Constância vence talento. 📈\n\nQuantos dias seguidos você já está firme? Conta aqui 👇\n💾 Salve para os dias difíceis\n\n#constancia #habitos #disciplina #evolucao #mentalidade #foco",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T18:47-03:00"
     },
     {
       "id": "vid-008",
       "tipo": "reel",
       "video": "videos/vid-008.mp4",
       "legenda": "A diferença não é tempo. É prioridade. ⌛\n\nO que você vai dizer NÃO hoje para ter mais foco? 👇\n📩 Envie para alguém que vive sem tempo\n\n#prioridade #foco #gestaodotempo #disciplina #mentalidade #produtividade",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T20:30-03:00"
     },
     {
       "id": "vid-009",
       "tipo": "reel",
       "video": "videos/vid-009.mp4",
       "legenda": "O desconforto é sinal de que você está saindo do lugar. 🔥\n\nSalve este vídeo para quando quiser desistir.\n📩 Envie para quem está passando por uma fase difícil\n\n#superacao #resiliencia #mentalidade #disciplina #foco #motivacao",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-16T21:37-03:00"
     },
     {
       "id": "vid-010",
       "tipo": "reel",
       "video": "videos/vid-010.mp4",
       "legenda": "Seu futuro é construído em dias comuns. 🏗️\n\nO que você vai fazer hoje que o seu eu de daqui a um ano vai agradecer? 👇\n\n#futuro #habitos #disciplina #mentalidade #crescimentopessoal #foco",
-      "status": "rascunho"
+      "status": "agendado",
+      "agendado_para": "2026-11-17T08:41-03:00"
     },
     {
       "id": "fade-001",
@@ -226,7 +237,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-10T19:49-03:00",
       "instagram_id": "18047827553823246",
-      "publicado_em": "2026-11-10T19:50:29-03:00"
+      "publicado_em": "2026-11-10T19:54:42-03:00"
     },
     {
       "id": "voz-001",
@@ -558,7 +569,7 @@
       "status": "publicado",
       "agendado_para": "2026-11-10T21:39-03:00",
       "instagram_id": "18040897571846937",
-      "publicado_em": "2026-11-10T21:40:17-03:00"
+      "publicado_em": "2026-11-10T21:44:42-03:00"
     },
     {
       "id": "gancho-002",
@@ -721,6 +732,51 @@
       "legenda": "Sua rotina diz mais sobre seu futuro do que seus sonhos.\n\n📌 Neste carrossel:\n• Sonho sem rotina é só vontade.\n• O que você repete, você se torna.\n• Seu horário revela suas prioridades.\n• Troque 'quero' por 'todo dia eu'.\n\n💬 Qual é o seu mínimo inegociável de todo dia? Escreva aqui 👇\n💾 Salve para reler quando precisar.\n📩 Mande para quem tem sonhos e precisa de rotina.\n\nSiga @opensarforte para mais.\n\n#rotina #habitos #disciplina #mentalidade #sonhos #constancia",
       "status": "agendado",
       "agendado_para": "2026-11-15T22:00-03:00"
+    },
+    {
+      "id": "pro-001",
+      "tipo": "reel",
+      "video": "videos/pro-001.mp4",
+      "legenda": "Ninguém vai te salvar. Mas você pode se salvar. Comece hoje. 🔥\n\n💬 O que você vai começar hoje? 👇\n💾 Salve para os dias difíceis\n📩 Envie para quem precisa ouvir isso\n\n#motivacao #disciplina #mentalidade #foco #superacao #acao",
+      "status": "agendado",
+      "musica": "pix-drill-hard-564474.mp3",
+      "agendado_para": "2026-11-15T16:17-03:00"
+    },
+    {
+      "id": "pro-002",
+      "tipo": "reel",
+      "video": "videos/pro-002.mp4",
+      "legenda": "3 sinais de que você está evoluindo, mesmo sem perceber. 📈\n\n💬 Qual desses você já sente? Responda com o número 👇\n💾 Salve para lembrar do seu progresso\n📩 Envie para alguém que está evoluindo\n\n#evolucao #mentalidade #crescimentopessoal #disciplina #autoconhecimento #foco",
+      "status": "agendado",
+      "musica": "pix-drill-uk-569816.mp3",
+      "agendado_para": "2026-11-15T17:45-03:00"
+    },
+    {
+      "id": "pro-003",
+      "tipo": "reel",
+      "video": "videos/pro-003.mp4",
+      "legenda": "Pare. Respire. Qual tarefa você está evitando? Faça agora, só 5 minutos. ⏱️\n\n💬 Qual era? Escreva aqui 👇\n💾 Salve para o próximo dia de procrastinação\n📩 Envie para quem vive adiando\n\n#procrastinacao #foco #disciplina #produtividade #mentalidade #acao",
+      "status": "agendado",
+      "musica": "pix-epic-cinematic-586006.mp3",
+      "agendado_para": "2026-11-15T19:18-03:00"
+    },
+    {
+      "id": "pro-004",
+      "tipo": "reel",
+      "video": "videos/pro-004.mp4",
+      "legenda": "Seu eu do futuro está te pedindo uma coisa: comece. 💬\n\n💬 Qual conversa você precisa ter com você hoje? 👇\n💾 Salve e releia amanhã cedo\n📩 Envie para alguém que está adiando\n\n#mentalidade #disciplina #comecar #foco #motivacao #reflexao",
+      "status": "agendado",
+      "musica": "pix-slowed-rolfied-615227.mp3",
+      "agendado_para": "2026-11-15T20:10-03:00"
+    },
+    {
+      "id": "pro-005",
+      "tipo": "reel",
+      "video": "videos/pro-005.mp4",
+      "legenda": "Você não precisa de mais motivação. Precisa de menos desculpas. ⌨️\n\n💬 Qual desculpa você vai cortar hoje? 👇\n💾 Salve para o dia que bater a preguiça\n📩 Envie para quem precisa ler isso\n\n#disciplina #desculpas #mentalidade #foco #motivacao #acao",
+      "status": "agendado",
+      "musica": "pix-phonk-the-mountain.mp3",
+      "agendado_para": "2026-11-15T21:49-03:00"
     }
   ]
 }
