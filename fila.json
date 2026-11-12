@@ -244,9 +244,11 @@
       "tipo": "reel",
       "video": "videos/voz-001.mp4",
       "legenda": "Quem muda de vida não anuncia. Faz. 🤫\n\nQual coisa você anda prometendo e ainda não começou? Conta aqui 👇\n📩 Envie para quem vive dizendo \"segunda eu começo\"\n\n#disciplina #acao #foco #mentalidade #motivacao #procrastinacao",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-epic-trailer.mp3",
-      "agendado_para": "2026-11-12T12:16-03:00"
+      "agendado_para": "2026-11-12T12:16-03:00",
+      "instagram_id": "17916321369490851",
+      "publicado_em": "2026-11-12T12:17:52-03:00"
     },
     {
       "id": "voz-002",
