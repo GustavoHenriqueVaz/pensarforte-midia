@@ -255,9 +255,11 @@
       "tipo": "reel",
       "video": "videos/voz-002.mp4",
       "legenda": "Dinheiro e tempo nunca sobram. Você cria. ⏳\n\nO que você está esperando para começar? 👇\n💾 Salve para lembrar quando der vontade de adiar\n\n#empreender #foco #disciplina #mentalidade #acao #sucesso",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-slowed-legendary.mp3",
-      "agendado_para": "2026-11-12T18:39-03:00"
+      "agendado_para": "2026-11-12T18:39-03:00",
+      "instagram_id": "18343525057279863",
+      "publicado_em": "2026-11-12T18:40:39-03:00"
     },
     {
       "id": "voz-003",
