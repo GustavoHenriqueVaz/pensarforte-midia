@@ -266,9 +266,11 @@
       "tipo": "reel",
       "video": "videos/voz-003.mp4",
       "legenda": "Todo mundo tem um plano. Poucos têm disciplina. 💪\n\nVocê está no grupo que fala ou no que faz? 👇\n📩 Envie para alguém que precisa agir\n\n#disciplina #resultado #foco #mentalidade #constancia #motivacao",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-cinematic-motivational.mp3",
-      "agendado_para": "2026-11-13T07:10-03:00"
+      "agendado_para": "2026-11-13T07:10-03:00",
+      "instagram_id": "18115805948597490",
+      "publicado_em": "2026-11-13T07:11:19-03:00"
     },
     {
       "id": "voz-004",
