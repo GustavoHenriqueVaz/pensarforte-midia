@@ -308,9 +308,11 @@
       "tipo": "reel",
       "video": "videos/fade-009.mp4",
       "legenda": "Cada dia que você adia é um dia que o medo vence. ⚡\n\nO que você vai fazer hoje, mesmo com medo? 👇\n\n#coragem #medo #acao #mentalidade #disciplina #foco",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-piano-differently-615165.mp3",
-      "agendado_para": "2026-11-13T15:57-03:00"
+      "agendado_para": "2026-11-13T15:57-03:00",
+      "instagram_id": "18203656066387967",
+      "publicado_em": "2026-11-13T15:58:12-03:00"
     },
     {
       "id": "fade-010",
