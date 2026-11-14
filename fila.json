@@ -321,9 +321,11 @@
       "tipo": "reel",
       "video": "videos/fade-010.mp4",
       "legenda": "A tempestade não dura para sempre. Quem resiste, colhe. 🌩️\n\nEnvie para alguém que está atravessando uma fase difícil.\n\n#resiliencia #superacao #persistencia #mentalidade #foco #forca",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-trap-atmosphere-583431.mp3",
-      "agendado_para": "2026-11-13T21:31-03:00"
+      "agendado_para": "2026-11-13T21:31-03:00",
+      "instagram_id": "17990933660874955",
+      "publicado_em": "2026-11-13T21:32:22-03:00"
     },
     {
       "id": "fade-011",
