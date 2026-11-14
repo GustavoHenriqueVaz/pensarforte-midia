@@ -332,9 +332,11 @@
       "tipo": "reel",
       "video": "videos/fade-011.mp4",
       "legenda": "Leia hoje o que vai mudar você amanhã. 📖\n\nQual foi o último livro que mudou sua cabeça? 👇\n💾 Salve para lembrar de ler\n\n#leitura #livros #conhecimento #mentalidade #desenvolvimentopessoal #habitos",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-ambient-dark-626823.mp3",
-      "agendado_para": "2026-11-14T07:33-03:00"
+      "agendado_para": "2026-11-14T07:33-03:00",
+      "instagram_id": "18138950440645649",
+      "publicado_em": "2026-11-14T07:34:31-03:00"
     },
     {
       "id": "fade-012",
