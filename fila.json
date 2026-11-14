@@ -343,9 +343,11 @@
       "tipo": "reel",
       "video": "videos/fade-012.mp4",
       "legenda": "O tempo não volta. Use o seu com respeito. ⏳\n\nEm que você gastou seu tempo hoje? 👇\n\n#tempo #gestaodotempo #foco #mentalidade #disciplina #reflexao",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-slowed-piano-leaf.mp3",
-      "agendado_para": "2026-11-14T11:24-03:00"
+      "agendado_para": "2026-11-14T11:24-03:00",
+      "instagram_id": "18360035185175458",
+      "publicado_em": "2026-11-14T11:25:25-03:00"
     },
     {
       "id": "fade-013",
