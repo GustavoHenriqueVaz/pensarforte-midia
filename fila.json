@@ -452,9 +452,11 @@
       "tipo": "reel",
       "video": "videos/voz-010.mp4",
       "legenda": "Não conte seus planos. Conte seus resultados. 🤐\n\nConcorda? Comenta SIM 👇\n\n#silencio #resultado #foco #mentalidade #disciplina #planejamento",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-phonk-612397.mp3",
-      "agendado_para": "2026-11-15T17:33-03:00"
+      "agendado_para": "2026-11-15T17:33-03:00",
+      "instagram_id": "18192166021415494",
+      "publicado_em": "2026-11-15T17:34:11-03:00"
     },
     {
       "id": "voz-011",
