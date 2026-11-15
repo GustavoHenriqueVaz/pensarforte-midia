@@ -408,9 +408,11 @@
       "tipo": "reel",
       "video": "videos/voz-006.mp4",
       "legenda": "Você não está perdido. Está confortável. 🚪\n\nQual zona de conforto você precisa deixar? 👇\n💾 Salve para lembrar\n\n#conforto #crescimento #coragem #mentalidade #disciplina #mudanca",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-phonk-brasileiro-588665.mp3",
-      "agendado_para": "2026-11-15T07:37-03:00"
+      "agendado_para": "2026-11-15T07:37-03:00",
+      "instagram_id": "18109496117312845",
+      "publicado_em": "2026-11-15T07:37:43-03:00"
     },
     {
       "id": "voz-007",
