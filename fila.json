@@ -441,9 +441,11 @@
       "tipo": "reel",
       "video": "videos/voz-009.mp4",
       "legenda": "Todo mundo quer o resultado. Ninguém quer o processo. 🛠️\n\nQual parte do processo você mais evita? 👇\n\n#processo #resultado #disciplina #mentalidade #constancia #foco",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-suspense-tension-623319.mp3",
-      "agendado_para": "2026-11-15T13:31-03:00"
+      "agendado_para": "2026-11-15T13:31-03:00",
+      "instagram_id": "18037252838891512",
+      "publicado_em": "2026-11-15T13:31:58-03:00"
     },
     {
       "id": "voz-010",
