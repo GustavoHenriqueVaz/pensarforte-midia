@@ -472,9 +472,11 @@
       "tipo": "reel",
       "video": "videos/voz-012.mp4",
       "legenda": "A vida não é justa. Mas recompensa quem insiste. 🔁\n\nQuantos dias você já insistiu? 👇\n\n#persistencia #insistir #superacao #mentalidade #foco #disciplina",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-phonk-drift-night-573644.mp3",
-      "agendado_para": "2026-11-15T20:29-03:00"
+      "agendado_para": "2026-11-15T20:29-03:00",
+      "instagram_id": "18158401309517561",
+      "publicado_em": "2026-11-15T20:30:33-03:00"
     },
     {
       "id": "voz-013",
