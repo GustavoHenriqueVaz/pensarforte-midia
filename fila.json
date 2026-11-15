@@ -430,9 +430,11 @@
       "tipo": "reel",
       "video": "videos/voz-008.mp4",
       "legenda": "Motivação é visita. Disciplina mora aqui. 🏠\n\n💾 Salve para os dias em que a vontade sumir\n📩 Envie para alguém que vive esperando motivação\n\n#motivacao #disciplina #habitos #foco #mentalidade #constancia",
-      "status": "agendado",
+      "status": "publicado",
       "musica": "pix-phonk-songs-593656.mp3",
-      "agendado_para": "2026-11-15T10:11-03:00"
+      "agendado_para": "2026-11-15T10:11-03:00",
+      "instagram_id": "18121431236068675",
+      "publicado_em": "2026-11-15T10:12:49-03:00"
     },
     {
       "id": "voz-009",
