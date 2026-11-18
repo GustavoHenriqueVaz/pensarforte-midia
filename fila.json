@@ -120,8 +120,10 @@
       "tipo": "reel",
       "video": "videos/vid-003.mp4",
       "legenda": "Sua única competição é quem você era ontem. 🌅\n\nMarque alguém que precisa lembrar disso hoje.\n\n#comparacao #crescimentopessoal #mentalidade #reflexao #foco #evolucao",
-      "status": "agendado",
-      "agendado_para": "2026-11-18T13:27-03:00"
+      "status": "publicado",
+      "agendado_para": "2026-11-18T13:27-03:00",
+      "instagram_id": "18128253973902791",
+      "publicado_em": "2026-11-18T13:27:47-03:00"
     },
     {
       "id": "vid-004",
